@@ -26,5 +26,27 @@ namespace SimpleCalculator.Test.Unit
 
             Assert.AreEqual(3,result);
         }
+        
+        
+        
+        [TestMethod]
+        public void SubtractsTwoNumbersAndReturnsValidAnswerForSymbolOperations()
+        {
+            int number1 = 1;
+            int number2 = 2;
+            double result = _calculatorEngine.Calculate("-", number1, number2);
+
+            Assert.AreEqual(-1,result);
+        }
+        
+        [TestMethod]
+        public void SubtractsTwoNumbersAndReturnsValidAnswerForNonSymbolOperations()
+        {
+            int number1 = 1;
+            int number2 = 2;
+            double result = _calculatorEngine.Calculate("SUBTRACT", number1, number2);
+
+            Assert.AreEqual(-1,result);
+        }
     }
 }
