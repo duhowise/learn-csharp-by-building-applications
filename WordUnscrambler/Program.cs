@@ -26,11 +26,11 @@ namespace WordUnscrambler
                     switch (option.ToUpper())
                     {
                         case File:
-                            Console.WriteLine(EnterScrambledWordsFileNameEntryOption);
+                            Console.Write(EnterScrambledWordsFileNameEntryOption);
                             ExecuteScrambledWordsInFileScenario();
                             break;
                         case Manual:
-                            Console.WriteLine(EnterWordsManuallyOption);
+                            Console.Write(EnterWordsManuallyOption);
                             ExecuteScrambledWordsInManualEntryScenario();
 
                             break;
