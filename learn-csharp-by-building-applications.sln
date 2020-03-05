@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebScrapper.Test.Unit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuSolver", "SudokuSolver\SudokuSolver.csproj", "{5E3A3F1C-8200-4D2D-93BB-A999FF3A380B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Test.Unit", "Sudoku.Test.Unit\Sudoku.Test.Unit.csproj", "{CC11FF74-684C-4A23-829E-57D30457A190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.Test.Unit", "Sudoku.Test.Unit\Sudoku.Test.Unit.csproj", "{CC11FF74-684C-4A23-829E-57D30457A190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSevenSamples", "CsharpSevenSamples\CsharpSevenSamples.csproj", "{AAA3222F-F342-4B7D-85E7-A5ACEE77415D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{CC11FF74-684C-4A23-829E-57D30457A190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC11FF74-684C-4A23-829E-57D30457A190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC11FF74-684C-4A23-829E-57D30457A190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA3222F-F342-4B7D-85E7-A5ACEE77415D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA3222F-F342-4B7D-85E7-A5ACEE77415D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA3222F-F342-4B7D-85E7-A5ACEE77415D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA3222F-F342-4B7D-85E7-A5ACEE77415D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
