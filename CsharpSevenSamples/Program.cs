@@ -6,8 +6,8 @@ namespace CsharpSevenSamples
     {
         static void Main(string[] args)
         {
-            byte binaryNumber = 0b111;
-            Console.Write(Convert.ToInt16(binaryNumber));
+            var longNumber = 1_000_000_000_000;
+            Console.WriteLine(longNumber);
 
         }
     }
