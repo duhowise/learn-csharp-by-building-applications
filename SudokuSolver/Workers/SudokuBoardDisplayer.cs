@@ -12,7 +12,7 @@ namespace SudokuSolver.Workers
                 Console.Write("|");
                 for (var column = 0; column < sudokuBoard.GetLength(1); column++)
                 {
-                    Console.WriteLine($"{sudokuBoard[row, column]}|");
+                    Console.Write($"{sudokuBoard[row, column]}|");
                 }
                 Console.WriteLine();
             }

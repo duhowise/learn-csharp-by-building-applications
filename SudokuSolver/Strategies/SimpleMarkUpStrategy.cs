@@ -57,9 +57,9 @@ namespace SudokuSolver.Strategies
         {
             var possibilities = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             var sudokuMap = _sudokuMapper.Find(givenRow, givenColumn);
-            for (var row = sudokuMap.StartRow; row < sudokuMap.StartRow+2; row++)
+            for (var row = sudokuMap.StartRow; row <= sudokuMap.StartRow+2; row++)
             {
-                for (var column = sudokuMap.StartColumn; column < sudokuMap.StartColumn + 2; column++)
+                for (var column = sudokuMap.StartColumn; column <= sudokuMap.StartColumn + 2; column++)
                 {
                     if (IsValidSingle(sudokuBoard[row, column]))
                     {
